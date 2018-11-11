@@ -2,8 +2,9 @@
   "name": "07-restserver",
   "version": "1.0.0",
   "description": "api rest con node y mongo",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
