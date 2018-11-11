@@ -4,7 +4,7 @@
   "description": "api rest con node y mongo",
   "main": "server.js",
   "scripts": {
-    "start": "server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
