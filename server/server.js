@@ -10,6 +10,10 @@ app.use(bodyParser.urlencoded({
 // parse application/json
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.send('hola REST');
+});
+
 app.get('/usuario', (req, res) => {
   res.json('GET usuario');
 });
